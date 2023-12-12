@@ -10,6 +10,6 @@ class Program {
     Console.WriteLine("Enter of Miles");
     var z = int.Parse(Console.ReadLine());
 
-    Console.WriteLine("With a base rate of ${0}, $150 per every hour, and $2 per every mile, the moving fee is {3} for {1} hours and {2} miles", x, y, z, (x + (y * 150) + (z * 2)));
+    Console.WriteLine("With a base rate of ${0}, $150 per every hour, and $2 per every mile, the moving fee is ${3} for {1} hours and {2} miles", x, y, z, (x + (y * 150) + (z * 2)));
   }
 }
