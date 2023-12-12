@@ -3,13 +3,15 @@ using System;
 class Program {
   public static void Main (string[] args) {
     const double x = 200;
-
+    const double y = 150;
+    const double z = 2;
+    
     Console.WriteLine("Enter number of hours");
-    var y = int.Parse(Console.ReadLine());
+    var a = double.Parse(Console.ReadLine());
 
     Console.WriteLine("Enter of Miles");
-    var z = int.Parse(Console.ReadLine());
+    var b = double.Parse(Console.ReadLine());
 
-    Console.WriteLine("With a base rate of ${0}, $150 per every hour, and $2 per every mile, the moving fee is ${3} for {1} hours and {2} miles", x, y, z, (x + (y * 150) + (z * 2)));
+    Console.WriteLine("With a base rate of ${0}, ${1} per every hour, and ${2} per every mile, the moving fee is ${5} for {3} hours and {4} miles", x, y, z, (x + (y * a) + (z * b)));
   }
 }
